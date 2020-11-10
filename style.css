@@ -56,43 +56,6 @@ box-shadow:  5px 5px 12px #555156,
     transform: scale(1.1);
 }
 
-@media only screen and (max-width: 600px) {
-    .card{
-        width: 100%;
-        margin-right: 45px;
-        box-shadow:  8px 8px 8px #c1c0c0, 
-                -8px -8px 8px #dddcdc;
-        background-color: #cfcec0!important;
-        font-family: cursive;
-        transition: transform 0.5s ease;
-    }
-    .card:active{
-        transform: scale(1.1);
-    }
-    .gold{
-        /* color: transparent;
-    font-size: 3rem;
-    font-family:'Times New Roman', Times, serif;
-    letter-spacing: 1px;
-    font-weight: bold;
-    background-image: linear-gradient(
-        to right,
-        #462523 0,
-        #cb9b50 15%,
-        #f6e27a 45%,
-        #f1edaf 50%,
-        #f6e27a 55%,
-        #cb9b51 78%,
-        #462525 100%
-    );
-    background-clip: text; */
-    font-size: 2rem!important;
-    color: #cb9b50;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 1px;
-    font-weight: bolder;
-    }
-}
 
 .section-center{
     width: 100%;
@@ -196,26 +159,18 @@ box-shadow:  5px 5px 12px #555156,
         transform: scale(1.1);
     }
     .gold{
-        /* color: transparent;
-    font-size: 3rem;
-    font-family:'Times New Roman', Times, serif;
-    letter-spacing: 1px;
-    font-weight: bold;
-    background-image: linear-gradient(
-        to right,
-        #462523 0,
-        #cb9b50 15%,
-        #f6e27a 45%,
-        #f1edaf 50%,
-        #f6e27a 55%,
-        #cb9b51 78%,
-        #462525 100%
-    );
-    background-clip: text; */
+    
     font-size: 2rem!important;
     color: #cb9b50;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
     font-weight: bolder;
+    }
+    .ex{
+        color: #1A1B41;
+    }
+    .ex:hover{
+        color: #1A1B41!important;
+        background-color: transparent
     }
 }
