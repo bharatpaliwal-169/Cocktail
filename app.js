@@ -6,5 +6,3 @@ window.addEventListener("DOMContentLoaded", () => {
   presentDrinks(URL);
   
 });
-
-// console.log(id);

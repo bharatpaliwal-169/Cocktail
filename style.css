@@ -15,6 +15,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    letter-spacing: 1.2px;
 }
 /* .banner-underline{
     width: 25rem;
@@ -26,16 +27,18 @@ header{
     display: inline-block;
     width: 18rem;
     border: 3px solid rgb(29, 25, 25);
-    color: #007FFF;
-    border-radius: 2rem;
+    color: #3D5A80;
+    border-radius: 11px;
+    transition: transform 0.5s ease;
 }
 .ex:hover{
-    background-color: #A9F8FB;
-    color: #007FFF!important;
-    /* border-radius: 50px; */
-background: #55b9f3;
-    box-shadow:  12px 12px 30px #489dcf, 
-                -12px -12px 30px #62d5ff;
+    border-radius: 11px;
+background: transparent;
+box-shadow:  5px 5px 12px #555156, 
+            -5px -5px 12px #716b72;
+    color: #3D5A80!important;
+    transform: scale(1.1);
+
 }
 .card{
     width: 30%;
@@ -53,6 +56,166 @@ background: #55b9f3;
     transform: scale(1.1);
 }
 
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 100%;
+        margin-right: 45px;
+        box-shadow:  8px 8px 8px #c1c0c0, 
+                -8px -8px 8px #dddcdc;
+        background-color: #cfcec0!important;
+        font-family: cursive;
+        transition: transform 0.5s ease;
+    }
+    .card:active{
+        transform: scale(1.1);
+    }
+    .gold{
+        /* color: transparent;
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+        #cb9b50 15%,
+        #f6e27a 45%,
+        #f1edaf 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462525 100%
+    );
+    background-clip: text; */
+    font-size: 2rem!important;
+    color: #cb9b50;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    }
+}
+
 .section-center{
     width: 100%;
+}
+
+.footer{
+    width: 100%;
+    background-color: #232c34;
+    color: #f1f1f1;
+    height: auto;
+}
+.gold{
+    color: transparent;
+    font-size: 9rem;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+        #cb9b50 15%,
+        #f6e27a 45%,
+        
+        #f5e834 50%,
+
+        #e7c519 55%,
+        
+        #cb9b51 78%,
+        #462525 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.btn-facebook {
+    padding: 13px 14px; color: #4267B2;
+    text-decoration: none; text-transform: uppercase;
+    transition: 0.5s ; letter-spacing: 4px;
+    border: 1px solid #4267B2; outline: 0;
+    border-radius: 5px; font-weight: bold;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.btn-facebook:hover{
+    background: #4267B2; color: #fff;
+    box-shadow: 0 0 5px #4267B2, 0 0 5px #4267B2, 0 0 5px #4267B2, 0 0 10px #4267B2
+}
+.btn-linkedin {
+    padding: 12px 12px; color: #2867B2;
+    text-decoration: none; text-transform: uppercase;
+    transition: 0.5s ; letter-spacing: 4px;
+    border: 1px solid #2867B2; outline: 0;
+    border-radius: 5px; font-weight: bold;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.btn-linkedin:hover{
+    background: #2867B2; color: #fff;
+    box-shadow: 0 0 5px #2867B2, 0 0 5px #2867B2, 0 0 5px #2867B2, 0 0 10px #2867B2
+}
+.btn-twitter {
+    padding: 12px 12px; color: #1DA1F2;
+    text-decoration: none; text-transform: uppercase;
+    transition: 0.5s ; letter-spacing: 4px;
+    border: 1px solid #1DA1F2; outline: 0;
+    border-radius: 5px; font-weight: bold;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.btn-twitter:hover{
+    background: #1DA1F2; color: #fff;
+    box-shadow: 0 0 5px #1DA1F2, 0 0 5px #1DA1F2, 0 0 5px #1DA1F2, 0 0 10px #1DA1F2
+}
+.btn-instagram {
+    padding: 12px 12px; color: #FF6EC7;
+    text-decoration: none; text-transform: uppercase;
+    transition: 0.5s ; letter-spacing: 4px;
+    border: 1px solid #FF6EC7; outline: 0;
+    border-radius: 5px; font-weight: bold;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.btn-instagram:hover{
+    background: #FF6EC7; color: #fff;
+    box-shadow: 0 0 5px #FF6EC7, 0 0 5px #FF6EC7, 0 0 5px #FF6EC7, 0 0 10px #FF6EC7
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 100%;
+        margin-right: 45px;
+        box-shadow:  8px 8px 8px #c1c0c0, 
+                -8px -8px 8px #dddcdc;
+        background-color: #cfcec0!important;
+        font-family: cursive;
+        transition: transform 0.5s ease;
+    }
+    .card:active{
+        transform: scale(1.1);
+    }
+    .gold{
+        /* color: transparent;
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+        #cb9b50 15%,
+        #f6e27a 45%,
+        #f1edaf 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462525 100%
+    );
+    background-clip: text; */
+    font-size: 2rem!important;
+    color: #cb9b50;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    }
 }

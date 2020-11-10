@@ -1,0 +1,31 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+/* .item-img{
+  width: 50%;
+  margin-left: 15rem;
+} */
+body{
+  background-color: #1F1F1F;
+  font-family: cursive;
+  font-size: 1.5rem;
+  /* color: #1E152A; */
+}
+.card{
+  background: #3a3e51!important;
+  border-radius: 15px;
+  background: #3a3e41;
+  box-shadow:  20px 20px 32px #323538, 
+              -20px -20px 32px #42474a;
+  color: #E4DFDA!important;
+}
+.drink-name{
+  text-decoration: underline;
+}
+.fa-glass{
+  color: silver;
+}

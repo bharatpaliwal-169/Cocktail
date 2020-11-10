@@ -45,10 +45,10 @@
 
   <header>
     <div class="banner-center text-center">
-      <h1 class="display-2">
+      <h1 class="display-2" data-aos='zoom-in' data-aos-duration='3000'>
         <strong>Cocktail API</strong>
         <div class="banner-underline"></div>
-        <a class="nav-link ex" href="#cocktail">Explore</a>
+        <a class="nav-link ex" href="#cocktail"> <i class="fas fa-cocktail"></i> Explore</a>
         
       </h1>
     </div>
@@ -57,9 +57,10 @@
   <main>
     <div class="container text-center" id="cocktail">
       <form class="search-form mt-5">
-        <h3 class="display-3">Cocktail Collection</h3>
+        <h3 class="display-3 gold" data-aos='flip-left' data-aos-duration='3000'>Cocktail Collection</h3>
         <!-- <a href="try.html">click</a> -->
-        <input type="text" name="drink" placeholder="Search your favorite drink here" class="form-control input">
+        <input type="text" name="drink" placeholder="Search your favorite drink here" class="form-control input"
+        data-aos='fade-up' data-aos-duration='3000'>
       </form>
 
       <section class = "section-cocktails">
@@ -71,8 +72,41 @@
             <div class="row ml-3 section-center" ></div>
         </div>
       </section>
+
+      
     </div>
-  </main>
+
+    <div class="container-fluid footer">
+      <div class="mt-5">
+        <div class="row">
+          <div class="col-12 col-sm-3 mt-5 text-center offset-sm-1">
+            <h6><i class="fas fa-lg fa-laptop-code"></i> Bharat Paliwal</h6>
+            <i class="fa fa-envelope-o">: paliwalbharat2301@gmail.com</i> 
+          </div>
+          <div class="col-12 col-sm-3 mt-5 text-center">
+            <button class="btn btn-md btn-outline-info like" id="inc" onclick="clickCounter()">
+              LIKE : <span id="count">0</span> 
+            </button>
+            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="website link">
+              SHARE
+            </button>
+          </div>
+          <div class="col-12 col-sm-4 mt-5  mb-5">
+            
+            <div class="text-center social">
+              <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/bharat.paliwal.3958914/"><i class="fa fa-facebook"></i></a>
+              <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/bharat-paliwal-ab7169179/"><i class="fa fa-linkedin"></i></a>
+              <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/BharatPaliwal23"><i class="fa fa-twitter"></i></a>
+              <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/_bharat_231/"><i class="fa fa-instagram"></i></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+</main>
+  
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -81,7 +115,11 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
       AOS.init();
+      $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
   </script>
   <script src="./app.js" type="module"></script>
+  <script src="./like.js"></script>
 </body>
 </html>

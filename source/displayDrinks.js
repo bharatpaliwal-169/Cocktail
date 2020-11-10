@@ -16,7 +16,8 @@ const displayDrinks = async ({ drinks }) => {
         // document.getElementById('dataId') = dataId;
         return `
         <a href='./drink.html'>
-                <div class='card bg-dark mt-5' data-id="${id}" id='${id}'>
+                <div class='card bg-dark mt-5' data-id="${id}" id='${id}'
+                data-aos='fade-up' data-aos-duration='3000'>
                     <div class="card-title">
                         <img class='img-fluid' src="${image}" alt="${name}" data-id="${id}">
                     </div>
