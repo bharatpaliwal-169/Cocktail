@@ -1,0 +1,58 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #cfcece;
+}
+header{
+    height: 100vh;
+    background: url(./images/fig-3.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-center{
+    height: 100vh;
+    color:#4F6D7A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* .banner-underline{
+    width: 25rem;
+    border: 3px solid #6D3D14;
+    margin: 0 auto 20px;
+} */
+.ex{
+    font-size: 2rem;
+    display: inline-block;
+    width: 18rem;
+    border: 3px solid rgb(29, 25, 25);
+    color: #007FFF;
+    border-radius: 2rem;
+}
+.ex:hover{
+    background-color: #A9F8FB;
+    color: #007FFF!important;
+    /* border-radius: 50px; */
+background: #55b9f3;
+    box-shadow:  12px 12px 30px #489dcf, 
+                -12px -12px 30px #62d5ff;
+}
+.card{
+    width: 30%;
+    height: auto;
+    margin: .8rem;
+    border-radius: 16px;
+    background: #cfcece;
+    box-shadow:  8px 8px 8px #c1c0c0, 
+                -8px -8px 8px #dddcdc;
+    background-color: #cfcec0!important;
+    font-family: cursive;
+    transition: transform 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.section-center{
+    width: 100%;
+}
