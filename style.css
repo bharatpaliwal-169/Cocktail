@@ -1,3 +1,4 @@
+/* General stylles */
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #cfcece;
@@ -17,11 +18,6 @@ header{
     justify-content: center;
     letter-spacing: 1.2px;
 }
-/* .banner-underline{
-    width: 25rem;
-    border: 3px solid #6D3D14;
-    margin: 0 auto 20px;
-} */
 .ex{
     font-size: 2rem;
     display: inline-block;
@@ -40,9 +36,11 @@ box-shadow:  5px 5px 12px #555156,
     transform: scale(1.1);
 
 }
+/* API card */
+
 .card{
     width: 30%;
-    height: auto;
+    /* height: ; */
     margin: .8rem;
     border-radius: 16px;
     background: #cfcece;
@@ -50,10 +48,10 @@ box-shadow:  5px 5px 12px #555156,
                 -8px -8px 8px #dddcdc;
     background-color: #cfcec0!important;
     font-family: cursive;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease!important;
 }
 .card:hover{
-    transform: scale(1.1);
+    transform: scale(1.1)!important;
 }
 
 
@@ -153,7 +151,7 @@ box-shadow:  5px 5px 12px #555156,
                 -8px -8px 8px #dddcdc;
         background-color: #cfcec0!important;
         font-family: cursive;
-        transition: transform 0.5s ease;
+        transition: transform 0.8s ease;
     }
     .card:active{
         transform: scale(1.1);
@@ -169,7 +167,7 @@ box-shadow:  5px 5px 12px #555156,
     .ex{
         color: #1A1B41;
     }
-    .ex:hover{
+    .ex:active{
         color: #1A1B41!important;
         background-color: transparent
     }
