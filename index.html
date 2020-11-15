@@ -33,10 +33,10 @@
   <main>
     <div class="container text-center" id="cocktail">
       <form class="search-form mt-5">
-        <h3 class="display-3 gold" data-aos='flip-left' data-aos-duration='3000'>Cocktail Collection</h3>
+        <h3 class="display-3" data-aos='zoom-in-up'>Featured <i class="fas fa-cocktail"></i> </h3>
         <!-- <a href="try.html">click</a> -->
         <input type="text" name="drink" placeholder="Search your favorite drink here" class="form-control input"
-        data-aos='fade-up' data-aos-duration='3000'>
+        data-aos='fade-in' data-aos-duration='3000'>
       </form>
 
       <section class = "section-cocktails">
@@ -55,11 +55,14 @@
     <div class="container-fluid footer">
       <div class="mt-5">
         <div class="row">
-          <div class="col-12 col-sm-3 mt-5 text-center offset-sm-1">
+          
+          <div class="col-12 col-sm-3 mt-5 text-center offset-sm-1 ">
+            <h5 class="mb-3">Developer's  Contact</h5>
             <h6><i class="fas fa-lg fa-laptop-code"></i> Bharat Paliwal</h6>
             <i class="fa fa-envelope-o">: paliwalbharat2301@gmail.com</i> 
           </div>
-          <div class="col-12 col-sm-3 mt-5 text-center">
+          
+          <div class="col-12 col-sm-2 mt-5 text-center">
             <button class="btn btn-md btn-outline-info like" id="inc" onclick="clickCounter()">
               LIKE : <span id="count">0</span> 
             </button>
@@ -77,15 +80,26 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-4 mt-5  mb-5">
-            
-            <div class="text-center social">
+          
+          <div class="col-12 col-sm-6 mt-5  mb-5 social text-center justify-content-center align-items-center">  
+            <!-- <div class="text-center social">
               <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/bharat.paliwal.3958914/"><i class="fa fa-facebook"></i></a>
               <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/bharat-paliwal-ab7169179/"><i class="fa fa-linkedin"></i></a>
               <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/BharatPaliwal23"><i class="fa fa-twitter"></i></a>
               <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/_bharat_231/"><i class="fa fa-instagram"></i></a>
               
-            </div>
+            </div> -->
+            <ul>
+              <li> <i class="fab fa-facebook-f" onclick="window.open('https://www.facebook.com/bharat.paliwal.3958914/')" ></i></li>
+              <li> <i class="fab fa-twitter"onclick="window.open('https://twitter.com/BharatPaliwal23')"></i></li>
+              <li><i class="fab fa-instagram"onclick="window.open('https://www.instagram.com/_bharat_231/')"></i></li>
+              <li><i class="fab fa-linkedin-in"onclick="window.open('https://www.linkedin.com/in/bharat-paliwal-ab7169179/')"></i></li>
+              <li><i class="fab fa-youtube"onclick="window.open('https://www.youtube.com/channel/UCLb70fyiSnl07LVcVhQznmw/about?view_as=subscriber')"></i></li>
+            </ul>
+          </div>
+          
+          <div class="col-12 text-muted text-center mt-5 mb-2">
+            <p> &copy; All Right Reserved || Coded with lots of Chai and &heartsuit;</p>
           </div>
         </div>
       </div>
