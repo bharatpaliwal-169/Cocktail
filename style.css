@@ -295,3 +295,15 @@ color: #ff1a1a;
 box-shadow: 0 0 15px #ff0000;
 text-shadow: 0 0 15px #ff0000;
 }
+
+
+@media (max-width:600px){
+    
+    .social ul{
+        padding-right: 40px;
+        /* width: 100%; */
+    }
+    .social ul li{
+        margin: 0 1px;
+    }
+}
